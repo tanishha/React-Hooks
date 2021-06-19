@@ -75,32 +75,6 @@ h1 {
   background-color: #136ca7;
 } */
 
-form {
-  background: cornflowerblue;
-  padding: 2rem;
-  border-radius: 1rem;
-  outline: none;
-  text-align: left;
-}
-
-form label {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  text-align: left;
-  text-transform: capitalize;
-}
-
-form input {
-  min-width: 20rem;
-  height: 2rem;
-  border-radius: 0.5rem;
-  font-size: 1.2rem;
-  text-align: left;
-  border: none;
-  margin-top: 0.3rem;
-  padding: 0.5rem;
-  outline: none;
-}
 
 button[type] {
   border: none;
