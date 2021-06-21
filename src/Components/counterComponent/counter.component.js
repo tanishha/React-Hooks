@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Test from "./test";
 function CounterComponent() {
   const [count, setCount] = useState(0);
   const [width, setwidth] = useState(window.screen.width);
@@ -9,13 +9,7 @@ function CounterComponent() {
     setwidth(window.innerWidth);
     setheight(window.innerHeight);
   };
-  useEffect(() => {
-    if (count >= 1) {
-      document.title = `Count (${count})`;
-    } else {
-      document.title = `Count`;
-    }
-  }, [count]);
+  Test(count);
   useEffect(() => {
     window.addEventListener("resize", changedDimension);
     return () => {

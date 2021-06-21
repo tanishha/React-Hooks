@@ -8,7 +8,7 @@ import IncreDcre from "./Components/incdecComponent/incdec.component";
 function App() {
   return (
     <div className="App">
-    {/* <CounterComponent/> */}
+    <CounterComponent/>
       {/* <GithubComponent /> */}
       {/* <IncreDcre/> */}
       <AComponent/>
