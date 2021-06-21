@@ -28,7 +28,7 @@ const GithubComponent = () => {
       <div className="container-fluid mt-5">
         <div className="row text-center">
           {users.map((curElem) => {
-            const { avatar_url, id, login, type } = curElem;
+            const { avatar_url, id, login } = curElem;
             return (
               <div className="col-10 col-md-4 mt-5" key={id}>
                 <div className="card p-2 ml-5 mr-5">
