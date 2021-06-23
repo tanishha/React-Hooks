@@ -9,7 +9,9 @@ function CounterComponent() {
     setwidth(window.innerWidth);
     setheight(window.innerHeight);
   };
+  //custom hooks
   Test(count);
+  
   useEffect(() => {
     window.addEventListener("resize", changedDimension);
     return () => {
